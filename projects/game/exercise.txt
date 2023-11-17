@@ -1,0 +1,5 @@
+Napisz grę na 250 linijek kodu.
+
+Przykład.
+Gra ma 3 poziomy trudności: łatwy, średni i trudny.
+Na początku obaj gracze mają§
