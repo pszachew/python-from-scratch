@@ -63,7 +63,9 @@ while rozwiazanie_podzielne == False:
     liczby = generuj_liczby(10)
     print(f"Z podanych liczb {liczby} wpisz pozycje tych liczb (zaczynajac od 0), które są podzielne przez 3. Poszczegolne liczby oddziel spacja")
     user_input = input()
+    user_input = user_input.strip() # usuwa białe znaki z końca inputu
     user_input = user_input.split(" ")
+    print(user_input)
     wszystkie_podzielne = True
     user_input = [int(x) for x in user_input]
     print(user_input)
