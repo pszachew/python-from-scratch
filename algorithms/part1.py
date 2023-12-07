@@ -52,7 +52,7 @@ def silnia(x):
     Funkcja przyjmuje argument n oraz k i zwraca n^k.
 """
 
-def potega(n,k):
+def potega(n, k):
     wartosc = 1
     for element in range(1, k+1):
         wartosc = wartosc*n
